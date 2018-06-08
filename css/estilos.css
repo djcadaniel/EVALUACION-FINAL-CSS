@@ -5,11 +5,15 @@
 body{
 	width: 90%;
 	background-color: #02010a;
-	font-family: "Dancing Script";	
+	font-family: "DancingScript", cursive;	
 	margin: 0 auto;
 	display: flex;
 	flex-flow: row wrap;
-	font-style: italic;
+	font-size: 18px;
+}
+@font-face{
+	font-family: "DancingScript";
+	src: url(../Tipografias/Dancing_Script/DancingScript-Regular.ttf);
 }
 header{
 	background-color: #5b7989;
@@ -48,21 +52,13 @@ nav ul li{
 nav ul li a{
 	color: white;
 	display: block;
+	font-size: 20px;
 }
 nav ul li a:hover{
 	background-color: green;
 }
 .indice1{
 	text-decoration	:none;
-}
-.li1{
-	
-}
-.li2{
-	
-}
-.li3{
-	
 }
 #seccion1{
 	width: 90%;
@@ -179,7 +175,19 @@ footer{
 	width: 25%;
 	margin: 0 auto;
 }
-.tit-foot{
+.tit-col1{
 	font-weight: bold;
-	font-size: 22px;
+	font-size: 24px;
+}
+.tit-col2{
+	font-weight: bold;
+	font-size: 24px;
+}
+.tit-col3{
+	font-weight: bold;
+	font-size: 24px;
+}
+.tit-col4{
+	font-weight: bold;
+	font-size: 24px;
 }
