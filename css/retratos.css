@@ -1,0 +1,237 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	width: 90%;
+	background-color: #02010a;
+	font-family: "DancingScript", cursive;	
+	margin: 0 auto;
+	display: flex;
+	flex-flow: row wrap;
+	font-size: 18px;
+}
+@font-face{
+	font-family: "DancingScript";
+	src: url(../Tipografias/Dancing_Script/DancingScript-Regular.ttf);
+}
+header{
+	background-color: #5b7989;
+	color: #FFF;
+	width: 90%;
+	border-radius: 10px 10px 0 0;	
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	padding: 20px 0;
+	margin-top: 10px;
+	text-shadow: 2px 2px 2px #02010a;
+	align-items: center;
+	animation: rebote 1s;
+}
+header h1{
+	padding: 0 20px;
+}
+#menu{
+	padding: 0 20px;
+}
+#menu a{
+	color: white;
+	font-size: 20px;
+	padding: 10px 10px;
+}
+.indice3{
+	text-decoration	:none;
+}
+
+#seccion{
+	background-color:#d5c75f;
+	width: 90%;
+	margin: 0 auto;
+}
+.galeria{
+	display: flex;
+	flex-flow: row wrap;
+}
+.galeria article figure{
+	padding: 7%;
+}
+.articulo1{
+	width: 33.02%;
+}
+.img1{
+	-webkit-filter:blur(10px);
+	filter:blur(10px);
+}
+.articulo2{
+	width: 33.02%;
+}
+.img2{
+	-webkit-filter:grayscale(100%);
+	filter:grayscale(100%);
+}
+.articulo3{
+	width: 33.02%;
+}
+.img3{
+	-webkit-filter:sepia(90%);
+	filter:sepia(90%);
+}
+.articulo4{
+	width: 33.02%;
+}
+.img4{
+	-webkit-filter:grayscale(100%);
+	filter:grayscale(100%);
+}
+.articulo5{
+	width: 33.01%;
+}
+.articulo6{
+	width: 33.01%;
+}
+.img6{
+	-webkit-filter:grayscale(100%);
+	filter:grayscale(100%);
+}
+footer{
+	width: 90%;
+	margin: 0 auto;
+	background-color: #C6d5c5;
+	border-radius: 0 0 10px 10px;
+}
+#cont-footer{
+	display: flex;
+	flex-flow: row wrap;
+	margin: 0 auto;
+	padding: 20px;
+}
+.columna1{
+	width: 25%;
+	margin: 0 auto;
+}
+.columna2{
+	width: 25%;
+	margin: 0 auto;
+}
+.columna3{
+	width: 25%;
+	margin: 0 auto;
+}
+.columna3 p img{
+	height: 20px;
+}
+.columna4{
+	width: 25%;
+	margin: 0 auto;
+}
+.tit-col1{
+	font-weight: bold;
+	font-size: 24px;
+}
+.tit-col2{
+	font-weight: bold;
+	font-size: 24px;
+}
+.tit-col3{
+	font-weight: bold;
+	font-size: 24px;
+}
+.tit-col4{
+	font-weight: bold;
+	font-size: 24px;
+}
+
+@media (max-width: 900px){
+	body{
+		width: 100%;
+		background-color: #02010a;
+	}
+	header{
+		width: 100%;
+		margin:0;
+		display: flex;
+		flex-direction: column;
+		text-align: center;
+	}
+	#menu{
+		padding: 10px;
+	}
+	#menu a{
+		padding: 0px 10px;
+	}
+
+	#seccion{
+		width: 100%;
+	}
+	.articulo1{
+		width: 100%;
+	}
+	.articulo1 .img1{
+		padding: 10%;
+	}
+	.articulo2{
+		width: 100%;
+	}
+	.articulo2 .img2{
+		padding: 0 10% 10% 10%;
+	}
+	.articulo3{
+		width: 100%;
+	}
+	.articulo3 .img3{
+		padding: 0 10% 10% 10%;
+	}
+	.articulo4{
+		width: 100%;		
+	}
+	.articulo4 .img4{
+		padding: 0 10% 10% 10%;
+	}
+	.articulo5{
+		width: 100%;
+	}
+	.articulo5 .img5{
+		padding: 0 10% 10% 10%;
+	}
+	.articulo6{
+		width: 100%;
+	}
+	.articulo6 .img6{
+		padding: 0 10% 10% 10%;
+	}
+	footer{
+		width: 100%;
+	}
+	#cont-footer{
+		text-align: center;
+	}
+	#cont-footer > div{
+		margin: 20px 0;
+	}
+	.columna1{
+		width: 100%;
+	}
+	.columna2{
+		width: 100%;
+	}
+	.columna3{
+		width: 100%;
+	}
+	.columna4{
+		width: 100%;
+	}
+}
+
+
+@-webkit-keyframes rebote{
+	0%{
+		margin-top: 150%;
+	}
+	60%{
+		margin-top: -5%;
+	}
+	100%{
+		margin-top: 0%;
+	}
+}
